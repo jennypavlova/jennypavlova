@@ -1,0 +1,9 @@
+Introduction to Linux
+In this course I learn about The basic use of Linux based systems, local security principles, network operations, usage of text editors like vi and gedit, System Configutation, Basic bash scripting.
+
+Introduction to Bootstrap
+Here I study about page layout and design (grid stucture), forms and validation, how to use themes and create page from scratch.
+
+HTML5 Part 1: HTML5 Coding Essentials and Best Practices
+-Multimedia (streaming, adding a suubtitle, using camera and microphone), Animations (using Canvas and how to use input devices), Graphics (drawing using canvas, basic shapes) , Forms( new attributes, input types, elements)
+ 
