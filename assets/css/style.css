@@ -1,5 +1,5 @@
 body {
-  background-color: #504A4B;
+  background-color: #B0EDC7 !important;
   color: #4CC552;
   text-align: center;
 }
@@ -7,13 +7,29 @@ li {
   list-style: none;
   display: inline-block;
 }
+.main-info {
+  background-color: #B0EDC7;
+  padding-bottom: 6vh;
+}
+.social {
+  color: #44b76f
+}
+.menu {
+  background-color: #74DB9A; 
+}
 .section {
   display: inline-block;
-  border-radius: 30px; 
   height: 100%;
   width: 100%;
+  background-color: #44b76f ;
 }
 .fill { 
     min-height: 100%;
     height: 100%;
+    color: #268E4D;
+}
+.main-image {
+  border-radius: 30px;
+  height: auto;
+  width: 5vw;
 }
