@@ -49,16 +49,18 @@
       </div><!-- /.navbar-collapse -->
     </div>
   </nav>
-  <div class="main-info">
-  <div class="container fill">
-    <img class="main-image col-md-6" src="assets/images/main-image.jpg">
-    <h1> Hello! </h1>
-    <h2> I am Jenny </h2>
-    <li><a href="#"><i class="fa fa-facebook-square fa-4x social"></i></a></li>
-    <li><a href="#"><i class="fa fa-instagram fa-4x social"></i></a></li>
-    <li><a href="#"><i class="fa fa-github-square fa-4x social"></i></a></li>
-    <li><a href="#"><i class="fa fa-twitter-square fa-4x social"></i></a></li>
-  </div>
+  <div class="main-info fill">
+    <div class="container">
+      <img class="main-image col-md-6" src="assets/images/main-image.jpg">
+      <div class="col-md-6">
+        <h1> Hello! </h1>
+        <h2> I am Jenny </h2>
+        <li><a href="#"><i class="fa fa-facebook-square fa-4x social"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram fa-4x social"></i></a></li>
+        <li><a href="#"><i class="fa fa-github-square fa-4x social"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter-square fa-4x social"></i></a></li>
+      </div>
+    </div>
   </div>
   <div class="content">
     <div class="section" id="about">
@@ -67,15 +69,40 @@
     <div class="section" id="education">
       <h2>Education</h2>
       <div>
-        <div class="col-md-6">
-          <span class="glyphicon glyphicon-blackboard"></span>
-          <h3>High School</h3>
+        <div class="container">
+          <div class="page-header">
+            <h1 id="timeline">Education</h1>
+          </div>
+          <ul class="timeline">
+            <li>
+              <div class="timeline-badge"><i class="glyphicon glyphicon-blackboard"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">High School</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>More information comming soon</p>
+                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+                    Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge"><i class="glyphicon glyphicon-education"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">University</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>More information comming soon</p>
+                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+                    Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-6">
-          <span class="glyphicon glyphicon-education"></span>
-          <h3>University</h3>
-        </div>
-      </div>
+    </div>
     </div>
     <div class="section" id="courses">
       <h2>Courses</h2>
@@ -103,7 +130,6 @@
     <div class="section" id="hobbys">
       <h2>Hobbys</h2>
     </div>
-
   </div>
   <script src="assets/js/jquery-2.2.1.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
