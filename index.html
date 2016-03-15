@@ -31,20 +31,20 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Jenny</a>
+        <a class=" menu navbar-brand " href="#">Jenny</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#">About</a></li>
-          <li><a href = "#education">Education</a></li>
-          <li><a href = "#courses">Courses</a></li>
-          <li><a href = "#projects">Projects</a></li>
-          <li><a href = "#hobbys">Hobbys</a></li>
+          <li><a class="menu" href="#">About</a></li>
+          <li><a class="menu" href = "#education">Education</a></li>
+          <li><a class="menu" href = "#courses">Courses</a></li>
+          <li><a class="menu" href = "#projects">Projects</a></li>
+          <li><a class="menu" href = "#hobbys">Hobbys</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"></i></a></li>
+          <li><a href="#"></a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
@@ -56,6 +56,7 @@
         <h1> Hello! </h1>
         <h2> I am Jenny </h2>
         <li><a href="#"><i class="fa fa-facebook-square fa-4x social"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square fa-4x social"></i></a></li>
         <li><a href="#"><i class="fa fa-instagram fa-4x social"></i></a></li>
         <li><a href="#"><i class="fa fa-github-square fa-4x social"></i></a></li>
         <li><a href="#"><i class="fa fa-twitter-square fa-4x social"></i></a></li>
@@ -67,10 +68,8 @@
       <h2>About</h2>
     </div>
     <div class="section" id="education">
-      <h2>Education</h2>
-      <div>
-        <div class="container">
-          <div class="page-header">
+       <div class="container">
+          <div class="page-header" id="underline">
             <h1 id="timeline">Education</h1>
           </div>
           <ul class="timeline">
@@ -78,7 +77,7 @@
               <div class="timeline-badge"><i class="glyphicon glyphicon-blackboard"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">High School</h4>
+                  <h3 class="timeline-title">High School</h3>
                 </div>
                 <div class="timeline-body">
                   <p>More information comming soon</p>
@@ -91,7 +90,7 @@
               <div class="timeline-badge"><i class="glyphicon glyphicon-education"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">University</h4>
+                  <h3 class="timeline-title">University</h3>
                 </div>
                 <div class="timeline-body">
                   <p>More information comming soon</p>
@@ -103,32 +102,63 @@
           </ul>
         </div>
     </div>
-    </div>
     <div class="section" id="courses">
-      <h2>Courses</h2>
-      <span class="col-md-4" >
-        <h3> Introduction to Linux </h3>
-        <p>
-        In this course I learn about The basic use of Linux based systems, local security principles, network operations, usage of text editors like vi and gedit, System Configutation, Basic bash scripting.
-        </p>
-      </span>
-      <span class="col-md-4">
-        <h3> Introduction to Bootstrap </h3>
-        <p>
-        Here I study about page layout and design (grid stucture), forms and validation, how to use themes and create page from scratch.
-        </p>
-      </span>
-      <span class="col-md-4">
-        <h3> HTML5 Part 1: HTML5 Coding Essentials and Best Practices </h3>
-        <p>-Multimedia (streaming, adding a suubtitle, using camera and microphone), Animations (using Canvas and how to use input devices), Graphics (drawing using canvas, basic shapes) , Forms( new attributes, input types, elements)
-        </p>
-      </span>
+      <div class="container">  
+        <div class="page-header" id="underline">
+          <h1>Courses</h1>
+        </div>
+        
+        <span class="col-md-4" >
+          <h2> Introduction to Linux </h2>
+          <i class="course-icons fa fa-linux fa-5x social"></i>
+          <ul>
+          In this course I learn about:
+            <li> The basic use of Linux based systems, </li>
+            <li>local security principles, network operations, </li>
+            <li>usage of text editors like vi and gedit, </li>
+            <li>System Configutation,</li>
+            <li>Basic bash scripting.</li>
+          </ul>
+          <a target="_blank" href="https://s3.amazonaws.com/verify.edx.org/downloads/609578bc7e8145d3ae88021edab22d9b/Certificate.pdf"><i class="fa fa-certificate fa-4x social"></i> <p class="social"> Certificate </p></a>
+        </span>
+        <span class="col-md-4">
+          <h2> Introduction to Bootstrap </h2>
+          <i class="course-icons glyphicon glyphicon-bold fa-5x social"></i>
+          <ul>
+          Here I study about:
+          <li>page layout and design (grid stucture),</li>
+          <li>forms and validation,</li>
+          <li>how to use themes</li>
+          <li>and create page from scratch.</li>
+          </ul>
+          <a target="_blank" href="https://s3.amazonaws.com/verify.edx.org/downloads/b7ef57361dbd4ff5bd90253d3e61083e/Certificate.pdf"><i class="fa fa-certificate fa-4x social"></i> <p class="social"> Certificate </p></a>
+        </span>
+        <span class="col-md-4">
+          <h2> HTML5 Part 1: HTML5 Coding Essentials and Best Practices </h2>
+          <i class="course-icons fa fa-html5 fa-5x social"></i>
+          <ul> The main subjects in course are:
+           <li>Multimedia (streaming, adding a suubtitle, using camera and microphone),</li> <li>Animations (using Canvas and how to use input devices),</li> 
+           <li>Graphics (drawing using canvas, basic shapes) , </li>
+           <li>Forms( new attributes, input types, elements)</li>
+          </ul>
+          <a target="_blank" href="https://s3.amazonaws.com/verify.edx.org/downloads/609578bc7e8145d3ae88021edab22d9b/Certificate.pdf"><i class="fa fa-certificate fa-4x social"></i> <p class="social"> Certificate </p></a>
+        </span>
+      </div>
     </div>
+
     <div class="section" id="projects">
-      <h2>Projects</h2>
+      <div class="container">
+        <div class="page-header" id="underline">
+          <h2>Projects</h2>
+        </div>
+      </div>
     </div>
     <div class="section" id="hobbys">
-      <h2>Hobbys</h2>
+      <div class="container">
+        <div class="page-header" id="underline">
+          <h2>Hobbys</h2>
+        </div>
+      </div>
     </div>
   </div>
   <script src="assets/js/jquery-2.2.1.min.js"></script>

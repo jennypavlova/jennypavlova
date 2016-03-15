@@ -15,17 +15,19 @@ li {
   height: 100%;
 }
 .social {
-  color: #44b76f
+  color: #44b76f;
+  padding-right: 1vw;
 }
 .menu {
-  background-color: #74DB9A; 
+  background-color: #268E4D; 
+  color: #B0EDC7 !important;
 }
 .section {
   display: inline-block;
   height: 100%;
   width: 100%;
-  background-color: #44b76f ;
-    color: #fff;
+  background-color: #B0EDC7 ;
+  color: #268E4D;
 }
 .fill { 
     min-height: 100%;
@@ -36,6 +38,9 @@ li {
   border-radius: 40px;
   height: auto;
   width: 60vw;
+}
+#underline {
+border-bottom: 1px solid #268E4D;
 }
 .timeline {
   list-style: none;
@@ -49,7 +54,7 @@ li {
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #eeeeee;
+  background-color: #268E4D;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -183,4 +188,8 @@ li {
 
 .timeline-body > p + p {
   margin-top: 5px;
+}
+.course-icons {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
