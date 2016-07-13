@@ -21,8 +21,8 @@
   <![endif]-->
 </head>
 <body>
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid menu">
+  <nav class="menu navbar navbar-default" role="navigation">
+    <div class="menu container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -51,16 +51,28 @@
   </nav>
   <div class="main-info fill">
     <div class="container">
-      <img class="main-image col-md-6" src="assets/images/main-image.jpg">
-      <div class="col-md-6">
+      <div class="col-md-3 landing-page">
+        <img class="main-image" src="assets/images/main-image.jpg">
+        <div class="">
         <h1> Hello! </h1>
         <h2> I am Jenny </h2>
-        <li><a href="#"><i class="fa fa-facebook-square fa-4x social"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin-square fa-4x social"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram fa-4x social"></i></a></li>
-        <li><a href="#"><i class="fa fa-github-square fa-4x social"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter-square fa-4x social"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook-square fa-2x social"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square fa-2x social"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram fa-2x social"></i></a></li>
+        <li><a href="#"><i class="fa fa-github-square fa-2x social"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter-square fa-2x social"></i></a></li>
+        </div>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        </p>
+        <button type="button" class="buttons-landing col-md-5">Say Hello</button>
+        <button type="button" class="buttons-landing col-md-offset-1 col-md-5">Read more</button>
       </div>
+
+    </div>
+    <div>
+      <i id="button-education" class="fa fa-arrow-circle-down fa-4x social" aria-hidden="true"></i>
     </div>
   </div>
   <div class="content">
@@ -100,6 +112,9 @@
               </div>
             </li>
           </ul>
+          <div>
+            <i id="button-courses" class="fa fa-arrow-circle-down fa-4x social" aria-hidden="true"></i>
+          </div>
         </div>
     </div>
     <div class="section" id="courses">
@@ -145,7 +160,9 @@
         </span>
       </div>
     </div>
-
+    <div>
+      <i id="button-courses" class="fa fa-arrow-circle-down fa-4x social" aria-hidden="true"></i>
+    </div>
     <div class="section" id="projects">
       <div class="container">
         <div class="page-header" id="underline">
@@ -192,6 +209,7 @@
     </div>
   </div>
   <script src="assets/js/jquery-2.2.1.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
