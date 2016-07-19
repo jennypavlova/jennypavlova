@@ -41,7 +41,7 @@
           <li><a class="menu" href = "#education">Education</a></li>
           <li><a class="menu" href = "#courses">Courses</a></li>
           <li><a class="menu" href = "#projects">Projects</a></li>
-          <li><a class="menu" href = "#hobbys">Hobbys</a></li>
+          <li><a class="menu" href = "#hobbys">Hobbies</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"></a></li>
@@ -53,23 +53,21 @@
     <div class="container">
       <div class="col-md-3 landing-page">
         <img class="main-image" src="assets/images/main-image.jpg">
-        <div class="">
-        <h1> Hello! </h1>
-        <h2> I am Jenny </h2>
-        <li><a href="#"><i class="fa fa-facebook-square fa-2x social"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin-square fa-2x social"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram fa-2x social"></i></a></li>
-        <li><a href="#"><i class="fa fa-github-square fa-2x social"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter-square fa-2x social"></i></a></li>
+        <div>
+          <h1> Hello! </h1>
+          <h2> I am Jenny </h2>
+          <a href="#"><i class="fa fa-linkedin-square fa-2x social"></i></a>
+          <a href="#"><i class="fa fa-instagram fa-2x social"></i></a>
+          <a href="#"><i class="fa fa-github-square fa-2x social"></i></a>
+          <a href="#"><i class="fa fa-twitter-square fa-2x social"></i></a>
         </div>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         </p>
-        <a href="mailto:jennypavlova94@gmail.com"><div class="buttons-landing col-md-5">Say Hello</div></a>
-        <div id="button-education-slide" class="buttons-landing col-md-offset-1 col-md-5">Read more</div>
-        </div>
-
+        <a href="mailto:jennypavlova94@gmail.com"><span class="buttons-landing col-md-5">Say Hello</span></a>
+        <span id="button-education-slide" class="buttons-landing col-md-offset-1 col-md-5">Read more</span>
+      </div>
     </div>
     <div>
       <i id="button-education" class="fa fa-arrow-circle-down fa-4x social" aria-hidden="true"></i>
@@ -122,45 +120,60 @@
         <div class="page-header" id="underline">
           <h1>Courses</h1>
         </div>
-        
-        <span class="col-md-4" >
-          <h2> Introduction to Linux </h2>
-          <i class="course-icons fa fa-linux fa-5x social"></i>
-          <ul>
-          In this course I learn about:
-            <li> The basic use of Linux based systems, </li>
-            <li>local security principles, network operations, </li>
-            <li>usage of text editors like vi and gedit, </li>
-            <li>System Configutation,</li>
-            <li>Basic bash scripting.</li>
-          </ul>
-          <a target="_blank" href="https://s3.amazonaws.com/verify.edx.org/downloads/609578bc7e8145d3ae88021edab22d9b/Certificate.pdf"><i class="fa fa-certificate fa-4x social"></i> <p class="social"> Certificate </p></a>
-        </span>
-        <span class="col-md-4">
-          <h2> Introduction to Bootstrap </h2>
-          <i class="course-icons glyphicon glyphicon-bold fa-5x social"></i>
-          <ul>
-          Here I study about:
-          <li>page layout and design (grid stucture),</li>
-          <li>forms and validation,</li>
-          <li>how to use themes</li>
-          <li>and create page from scratch.</li>
-          </ul>
-          <a target="_blank" href="https://s3.amazonaws.com/verify.edx.org/downloads/b7ef57361dbd4ff5bd90253d3e61083e/Certificate.pdf"><i class="fa fa-certificate fa-4x social"></i> <p class="social"> Certificate </p></a>
-        </span>
-        <span class="col-md-4">
-          <h2> HTML5 Part 1: HTML5 Coding Essentials and Best Practices </h2>
-          <i class="course-icons fa fa-html5 fa-5x social"></i>
-          <ul> The main subjects in course are:
-           <li>Multimedia (streaming, adding a suubtitle, using camera and microphone),</li> <li>Animations (using Canvas and how to use input devices),</li> 
-           <li>Graphics (drawing using canvas, basic shapes) , </li>
-           <li>Forms( new attributes, input types, elements)</li>
-          </ul>
-          <a target="_blank" href="https://s3.amazonaws.com/verify.edx.org/downloads/609578bc7e8145d3ae88021edab22d9b/Certificate.pdf"><i class="fa fa-certificate fa-4x social"></i> <p class="social"> Certificate </p></a>
-        </span>
-      </div>
-    </div>
-    <div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default courses">
+            <div class="panel-heading">
+              <h2> Introduction to Linux </h2>
+            </div>
+            <div class="panel-body">
+              <i class="course-icons fa fa-linux fa-5x social"></i>
+              <ul>
+              In this course I learn about:
+                <li> The basic use of Linux based systems, </li>
+                <li>local security principles, network operations, </li>
+                <li>usage of text editors like vi and gedit, </li>
+                <li>System Configutation,</li>
+                <li>Basic bash scripting.</li>
+              </ul>
+              <a target="_blank" href="https://s3.amazonaws.com/verify.edx.org/downloads/609578bc7e8145d3ae88021edab22d9b/Certificate.pdf"><i class="fa fa-certificate fa-4x social"></i> <p class="social"> Certificate </p></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default courses">
+            <div class="panel-heading">
+              <h2> Introduction to Bootstrap </h2>
+            </div>
+            <div class="panel-body">
+            <i class="course-icons glyphicon glyphicon-bold fa-5x social"></i>
+            <ul>
+            Here I study about:
+            <li>page layout and design (grid stucture),</li>
+            <li>forms and validation,</li>
+            <li>how to use themes</li>
+            <li>and create page from scratch.</li>
+            </ul>
+            <a target="_blank" href="https://s3.amazonaws.com/verify.edx.org/downloads/b7ef57361dbd4ff5bd90253d3e61083e/Certificate.pdf"><i class="fa fa-certificate fa-4x social"></i> <p class="social"> Certificate </p></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default courses">
+            <div class="panel-heading">
+              <h2> HTML5 Coding Essentials and Best Practices </h2>
+            </div>
+            <div class="panel-body">
+              <i class="course-icons fa fa-html5 fa-5x social"></i>
+              <ul> The main subjects in course are:
+               <li>Multimedia (streaming, adding a suubtitle, using camera and microphone),</li> <li>Animations (using Canvas and how to use input devices),</li> 
+               <li>Graphics (drawing using canvas, basic shapes) , </li>
+               <li>Forms( new attributes, input types, elements)</li>
+              </ul>
+              <a target="_blank" href="https://s3.amazonaws.com/verify.edx.org/downloads/609578bc7e8145d3ae88021edab22d9b/Certificate.pdf"><i class="fa fa-certificate fa-4x social"></i> <p class="social"> Certificate </p></a>
+            </div>
+          </div>
+        </div>
       <i id="button-courses" class="fa fa-arrow-circle-down fa-4x social" aria-hidden="true"></i>
     </div>
     <div class="section" id="projects">
@@ -203,7 +216,7 @@
     <div class="section" id="hobbys">
       <div class="container">
         <div class="page-header" id="underline">
-          <h2>Hobbys</h2>
+          <h2>Hobbies</h2>
         </div>
       </div>
     </div>
