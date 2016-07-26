@@ -15,3 +15,9 @@ $('#button-courses').click(function(){
       scrollTop: $("#courses").offset().top
   }, 1000);
 });
+//Scroll from education section to next
+$('#button-projects').click(function(){
+  $('html, body').animate({
+      scrollTop: $("#projects").offset().top
+  }, 1000);
+});
