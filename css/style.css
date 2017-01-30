@@ -638,6 +638,34 @@ ul {
 .carousel-fade .carousel-control {
     z-index: 20;
 }
+.home-social {
+  margin-right: 5px;
+}
+.home-social a .fa:before {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    height: 60px;
+    line-height: 59px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+    width: 60px;
+}
+.home-social a .fa:after {
+    background: #5e5e5e none repeat scroll 0 0;
+    content: "";
+    height: 80px;
+    left: 104px;
+    position: absolute;
+    width: 1px;
+}
+.home-social a:hover  .fa:before {
+    border: 1px solid transparent;
+    color: #fff;
+}
 
 
 /* ============================
@@ -830,7 +858,7 @@ ul {
 #testimonial-carousel .owl-controls {
     bottom: -50px;
     position: absolute;
-    right: 22%;    
+    right: 22%;
 }
 #testimonial-carousel .owl-controls .owl-buttons .owl-prev, #testimonial-carousel .owl-controls .owl-buttons .owl-next {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;

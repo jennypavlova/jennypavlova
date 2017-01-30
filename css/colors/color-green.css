@@ -17,6 +17,9 @@ span {
   background: #2ecc71 none repeat scroll 0 0;
 
 }
+.home-social a:hover  .fa::before {
+    background-color: #2ecc71;
+}
 .about-us-right .media:hover  .fa::before {
     background-color: #2ecc71;
 }
