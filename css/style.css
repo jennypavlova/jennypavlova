@@ -1063,11 +1063,11 @@ span.count-description {
     font-weight: 400;
     padding: 5px 0;
 }
-.single-pricing-table .pricing-buttons {
+.single-pricing-table .project-buttons {
     margin: 30px 0;
     position: relative;
 }
-.single-pricing-table .pricing-buttons button.buy-btn {
+.single-pricing-table .project-buttons button.buy-btn {
     background-color: transparent;
     border: 1px solid #9b9b9b;
     color: #5b5b5b;
@@ -1079,7 +1079,7 @@ span.count-description {
             transition: all 0.4s ease-in-out 0s;
 }
 
-.single-pricing-table:hover .price , .single-pricing-table:hover .pricing-buttons button.buy-btn , .table-active .price {
+.single-pricing-table:hover .price , .single-pricing-table:hover .project-buttons button.buy-btn , .table-active .price {
     color: #fff;
     border: 1px solid transparent;
 }

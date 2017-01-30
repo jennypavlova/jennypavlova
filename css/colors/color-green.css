@@ -46,10 +46,10 @@ span {
 .portfolio-filter-nav ul li.active {
     background: #2ecc71 none repeat scroll 0 0;
 }
-.single-pricing-table:hover .price , .single-pricing-table:hover .pricing-buttons button.buy-btn , .table-active .price {
+.single-pricing-table:hover .price , .single-pricing-table:hover .project-buttons button.buy-btn , .table-active .price {
     background-color: #2ecc71;
 }
- .table-active .pricing-buttons button.buy-btn {
+ .table-active .project-buttons button.buy-btn {
     background-color: #2ecc71 !important;
     color: #fff !important;
     border: 1px solid transparent !important;

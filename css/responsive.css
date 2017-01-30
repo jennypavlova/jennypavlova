@@ -65,10 +65,10 @@
   padding: 4px 10px;
 }
 /*Pricing Table Area*/
-.single-pricing-table .pricing-buttons button.buy-btn {
+.single-pricing-table .project-buttons button.buy-btn {
   padding: 5px 30px;
 }
-.single-pricing-table .pricing-buttons {
+.single-pricing-table .project-buttons {
   margin: 20px 0;
 }
 /* Blog Post Area */
@@ -231,10 +231,10 @@ span.count-description {
 .single-pricing-table .pricing-title {
   margin-bottom: 15px;
 }
-.single-pricing-table .pricing-buttons {
+.single-pricing-table .project-buttons {
   margin: 10px 0;
 }
-.single-pricing-table .pricing-buttons button.buy-btn {
+.single-pricing-table .project-buttons button.buy-btn {
   font-size: 14px;
   padding: 2px 25px;
 }
