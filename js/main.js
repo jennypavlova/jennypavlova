@@ -115,9 +115,9 @@ $(document).ready(function() {
     });
 
 
-    // Partners Carousel 
-    $("#partners-carousel").owlCarousel({
-        // Partners Carousel Settings
+    // Technologies Carousel
+    $("#technologies-carousel").owlCarousel({
+        // Technologies Carousel Settings
         navigation: false,
         pagination: false,
         autoPlay: 3000, //Set AutoPlay to 3 seconds
