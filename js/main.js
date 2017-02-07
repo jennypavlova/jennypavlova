@@ -169,10 +169,22 @@ $(document).ready(function() {
     }
 
     // Simple Light Box
-    var gallery = $('.thumbnails a').simpleLightbox({
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        closeText: '<i class="fa fa-times"></i>',
+    $('.showImagesProjectViktorpo').on('click', function() {
+        $.SimpleLightbox.open({
+            items: ['./img/projects/vp_home.png', './img/projects/vp_mobile.png', './img/projects/vp_gallery.png' ]
+        });
     });
+    $('.showImagesProjectIGEM').on('click', function() {
+        $.SimpleLightbox.open({
+            items: ['./img/projects/igem-site-home.png', './img/projects/igem-site.png', './img/projects/igem-mobile.png']
+        });
+    });
+    $('.showImagesProjectTelehealth').on('click', function() {
+        $.SimpleLightbox.open({
+            items: ['./img/projects/telehealth1.jpg', './img/projects/telehealth2.png']
+        });
+    });
+
 
     // Counter JS
     $('.our-awards-section').on('inview', function(event, visible, visiblePartX, visiblePartY) {
