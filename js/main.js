@@ -232,10 +232,10 @@ $(document).ready(function() {
 
                     map = new GMaps({
                         el: '#gmap-wrapper',
-                        lat: 22.3590557, //Replace Here Location Google Map Lat
-                        lng: 91.8213111, //Replace Here Location Google Map Lng
+                        lat: 42.701672, //Replace Here Location Google Map Lat
+                        lng: 23.30854, //Replace Here Location Google Map Lng
                         scrollwheel: false,
-                        zoom: 17,
+                        zoom: 12,
                         zoomControl: true,
                         panControl: true,
                         streetViewControl: true,
@@ -243,18 +243,6 @@ $(document).ready(function() {
                         overviewMapControl: false,
                         clickable: true
                     });
-
-                    var image = '';
-                    map.addMarker({
-                        lat: 22.3590557, //Replace Here Location Google Map Lat
-                        lng: 91.8213111, //Replace Here Location Google Map Lat
-                        icon: image,
-                        animation: google.maps.Animation.DROP,
-                        verticalAlign: 'bottom',
-                        horizontalAlign: 'center',
-                        backgroundColor: '#d9d9d9',
-                    });
-
 
                     var styles = [
 
