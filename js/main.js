@@ -184,6 +184,11 @@ $(document).ready(function() {
             items: ['./img/projects/telehealth1.jpg', './img/projects/telehealth2.png']
         });
     });
+    $('.showImagesProjectYcharge').on('click', function() {
+        $.SimpleLightbox.open({
+            items: ['./img/projects/ycharge.png', './img/projects/ycharge_logo.png']
+        });
+    });
 
 
     // Counter JS
